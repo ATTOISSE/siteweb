@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url('background.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+.navbar{
+    width: 100%;
+    height: 60px;
+    margin: auto;
+    background-color: rgb(3, 29, 51,0.4);
+    position: fixed;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70%;
+}
+h3{
+    color: #ff7200;
+    font-size: 20px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 5px;
+}
+.logo:hover{
+    color: #fff;
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 40px;
+    margin-top: 20px;
+    font-size: 12px;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: arial;
+    font-weight: bold;
+}
+a:hover{
+    color: #ff7200;
+    text-decoration: underline ;
+    font-size: 14px;
+}
+.search{
+    width: 330px;
+    margin-top: -5px;
+    float: left;
+    float: right;
+    /* margin-left: 450px;  */
+    
+}
+.srch{
+    font-family: 'times new roman';
+    width: 150px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #ff7200;
+    margin-top: 13px; 
+    color: #fff;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.btn{
+    width: 50%;
+    height: 40px;
+    background: #ff7200;
+    border: 2px solid #ff7200;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.corps h2{
+    
+    padding-top: 200px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: #fcfcfc;
+}
+.p{
+    color: #fcfcfc;
+    margin-top: 7px;
+    width: 30%;
+}
+.corps .p{
+    text-align: center;
+}
+h4 ~ p{
+    color: #ff7200;
+}
